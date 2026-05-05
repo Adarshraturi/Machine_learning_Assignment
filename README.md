@@ -1,9 +1,25 @@
 # Machine Learning Assignment
-**Student ID:** 2551432
 
 A three-part machine learning assignment covering k-NN classification, PCA dimensionality reduction, and Singular Value Decomposition (SVD).
 
 ---
+## 📁 Repository Structure
+ 
+```
+ml-assignment/
+│
+├── notebooks/
+│   └── ML_assignment.ipynb       # Main Jupyter notebook with all code
+│
+├── report/
+│   └── ML_Assignment_Report.pdf  # Full written report
+│
+├── data/                         # Datasets used in the assignment
+│
+├── requirements.txt              # Python dependencies
+└── README.md
+```
+ 
 ## 📚 Assignment Overview
 
 ### Task 1 — k-Nearest Neighbours (k-NN) Classification
@@ -34,20 +50,6 @@ A three-part machine learning assignment covering k-NN classification, PCA dimen
 ### Prerequisites
 - Python 3.8+
 - Jupyter Notebook or JupyterLab
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/<your-username>/ml-assignment.git
-cd ml-assignment
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch the notebook
-jupyter notebook notebooks/ML_assignment.ipynb
-```
 
 ---
 
